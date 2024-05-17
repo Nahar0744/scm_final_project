@@ -1,4 +1,4 @@
-*Social Share Buttons*
+# Social Share Buttons
 
 **Introduction**
 
