@@ -56,10 +56,9 @@ To run this website locally, follow these steps:
 
 ## Usage
 
-1. Navigate to the landing page or any other page within Recipe Finder.
-2. Look for the social share buttons (e.g., Facebook, Twitter).
-3. Click on the desired social media platform's share button.
-4. Follow the prompts to share the information about hotel on your selected social media account.
+1. Look for the social share buttons (e.g., Facebook, Twitter).
+2. Click on the desired social media platform's share button.
+3. Follow the prompts to share the information about hotel on your selected social media account.
 
 ## Contributing
 
