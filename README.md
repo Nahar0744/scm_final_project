@@ -56,7 +56,7 @@ To run this website locally, follow these steps:
 
 ## Usage
 
-1. Look for the social share buttons (e.g., Facebook, Twitter).
+1. Look for the social share buttons (e.g., Facebook, Twitter, Instagram).
 2. Click on the desired social media platform's share button.
 3. Follow the prompts to share the information about hotel on your selected social media account.
 
