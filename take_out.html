@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<head>
+  <link rel="icon" type="image/x-icon" href="Screenshot 2023-10-29 172643.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "style.cSs">
+ 
+ 
+
+<body>
+  <nav class="navbar">
+    
+   
+    <li><a href="restaurant.html"><img src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover_square/70a645c3-ce9b-4cf8-a211-9ba5d6ec8472.png " width="200px" height="140px"></a></li>
+ <li><a href="menu.html">MENU</a></li>
+ <li><a href="reservations.html">RESERVATION</a></li>
+ <li><a href="take_out.html">TAKEOUT</a></li>
+ <div class="buttons" style="font-size: 25px;">
+ <!-- instagram -->
+<a class="instagram" href="https://www.instagram.com/sweetcheeksbbq/" target="blank" title="instagram"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- twitter -->
+<a class="twitter" href="https://twitter.com/sweetcheeksQ" target="blank" title="twitter"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!-- linkedin -->
+<a class="facebook" href="https://www.facebook.com/people/Sweet-Cheeks/100066346977150/" target="blank" title="facebook"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Signup.html">
+<input class="extrabutton" type="submit" value="SIGN UP"></a>
+</div>
+</ul>
+
+</nav>
+    <br><br><br><br><br><br>
+  <div class = "container1">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        
+
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+         
+        </div>
+      </div>
+
+      <div class = "meal-details">
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <div class = "meal-details-content">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+<script src = "script.js"></script>
+</body>
+</html>
