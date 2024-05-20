@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Screenshot 2023-10-29 172643.png">
+    <title>Restaurant Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #EC0089;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #EC0089;
+        }
+        .success {
+            color: #EC0089;
+            margin-bottom: 16px;
+        }
+        .error {
+            color: #ff0000;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <script>
+        // Dynamically create the signup form
+        document.body.innerHTML = `
+        <form id="signupForm">
+            <h2>Restaurant Signup:</h2>
+            <div class="success" id="success-message"></div>
+            <div class="error" id="error-message"></div>
+            
+            <label for="restaurantName">Name:</label>
+            <input type="text" id="restaurantName" name="restaurantName" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="validateForm()">Sign Up</button>
+        </form>
+        `;
+
+        // JavaScript function for form validation
+        function validateForm() {
+            var restaurantName = document.getElementById('restaurantName').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            // Simple email validation
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                document.getElementById('error-message').innerText = 'Please enter a valid email address.';
+                return;
+            }
+
+            // Password length validation
+            if (password.length < 6) {
+                document.getElementById('error-message').innerText = 'Password must be at least 6 characters long.';
+                return;
+            }
+
+            // If all validations pass, display success message (you can replace this with your backend logic)
+            document.getElementById('error-message').innerText = '';
+            document.getElementById('success-message').innerText = `Signup successful! Welcome ${restaurantName}!`;
+        }
+    </script> -->
+</body>
+</html>
