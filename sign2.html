@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        button {
+            background-color:#EC0089;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #EC0089;
+        }
+        .success {
+            color: #EC0089;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="registrationForm">
+        <h2>Registration</h2>
+        <div class="success" id="success-message"></div>
+        <button type="button" onclick="showSuccessMessage()">Register</button>
+    </form>
+
+    <script>
+        function showSuccessMessage() {
+            setTimeout(function() {
+                document.getElementById('registrationForm').reset();
+                document.getElementById('success-message').innerText = 'Registration successful!';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
